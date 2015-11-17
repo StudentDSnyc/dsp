@@ -3,13 +3,13 @@
 
 
 def match_ends(words):
-   count=0
-   for i in range(len(words)):
-       if len(words[i])>=2 and words[i][0]==words[i][len(word)-1]:
-           count+=1
-    return count
+	count=0
+	for i in range(len(words)):
+		if len(words[i])>=2 and words[i][0]==words[i][len(words[i])-1]:
+			count+=1
+	return count
    
-    """
+"""
     Given a list of strings, return the count of the number of strings
     where the string length is 2 or more and the first and last chars
     of the string are the same.
@@ -21,21 +21,21 @@ def match_ends(words):
     >>> match_ends(['aaa', 'be', 'abc', 'hello'])
     1
     """
-    raise NotImplementedError
+    #raise NotImplementedError
 
 
 def front_x(words):
     x_list=[]
     not_x_list=[]
     for i in range(len(words)):
-        if word[i][0]=='x':
-            x_list.append(word[i])
+        if words[i][0]=='x':
+            x_list.append(words[i])
         else:
-            not_x_list.append(word[i])
-    return x_list.sort()+not_x_list.sort()
+            not_x_list.append(words[i])
+    return sorted(x_list)+sorted(not_x_list)
             
     
-    """
+"""
     Given a list of strings, return a list with the strings in sorted
     order, except group all the strings that begin with 'x' first.
     e.g. ['mix', 'xyz', 'apple', 'xanadu', 'aardvark'] yields
@@ -48,13 +48,13 @@ def front_x(words):
     >>> front_x(['mix', 'xyz', 'apple', 'xanadu', 'aardvark'])
     ['xanadu', 'xyz', 'aardvark', 'apple', 'mix']
     """
-    raise NotImplementedError
+    #raise NotImplementedError
 
 
 def sort_last(tuples):
-    return tuples.sort(key=lambda entry:entry[len(entry)-1])
+	return sorted(tuples, key=lambda entry: entry[len(entry)-1])
     
-    """
+"""
     Given a list of non-empty tuples, return a list sorted in
     increasing order by the last element in each tuple.
     e.g. [(1, 7), (1, 3), (3, 4, 5), (2, 2)] yields
@@ -67,15 +67,18 @@ def sort_last(tuples):
     >>> sort_last([(1, 7), (1, 3), (3, 4, 5), (2, 2)])
     [(2, 2), (1, 3), (3, 4, 5), (1, 7)]
     """
-    raise NotImplementedError
+    #raise NotImplementedError
 
 
 def remove_adjacent(nums):
-    for i in range(len(nums)):
-        if nums[i]==nums[i+1]:
-            nums.remove(nums[i+1])
-    return nums
-    """
+    new_list=[]
+    if len(nums)>0:
+    	new_list=[nums[0]]
+    for i in range(len(nums)-1):
+    	if nums[i]!=nums[i+1]:
+    		new_list.append(nums[i+1])
+    return new_list
+"""
     Given a list of numbers, return a list where all adjacent equal
     elements have been reduced to a single element, so [1, 2, 2, 3]
     returns [1, 2, 3]. You may create a new list or modify the passed
@@ -90,13 +93,13 @@ def remove_adjacent(nums):
     >>> remove_adjacent([])
     []
     """
-    raise NotImplementedError
+    #raise NotImplementedError
 
 
 def linear_merge(list1, list2):
-    return (list1+list2).sort()
+    print sorted((list1+list2))
     
-    """
+"""
     Given two lists sorted in increasing order, create and return a
     merged list of all the elements in sorted order. You may modify
     the passed in lists. Ideally, the solution should work in "linear"
@@ -109,4 +112,4 @@ def linear_merge(list1, list2):
     >>> linear_merge(['aa', 'aa'], ['aa', 'bb', 'bb'])
     ['aa', 'aa', 'aa', 'bb', 'bb']
     """
-    raise NotImplementedError
+    #raise NotImplementedError
