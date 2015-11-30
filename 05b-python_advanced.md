@@ -126,27 +126,23 @@ professor_dict = {('Susan', 'Ellenberg'): ['Ph.D.', 'Professor', 'sellenbe@upenn
 
 Print the first 3 key and value pairs of the dictionary:
 ```
-{('A. Russell', 'Localio'): [['PhD',
+{('A. Russell', 'Localio'): [[' JD MA MPH MS PhD',
                               'Associate Professor',
                               'rlocalio@upenn.edu']],  
- ('Alisa Jane', 'Stephens'): [['ScD',
+ ('Alisa Jane', 'Stephens'): [[' Ph.D.',
                                'Assistant Professor',
                                'alisaste@mail.med.upenn.edu']],  
- ('Andrea Beth', 'Troxel'): [['PhD',
+ ('Andrea Beth', 'Troxel'): [[' ScD',
                               'Professor',
                               'atroxel@mail.med.upenn.edu']]}  
 ```
 ####Q8.  It looks like the current dictionary is printing by first name.  Sort by last name and print the first 3 key and value pairs.  
 ```
-{('A. Russell', 'Localio'): [['PhD',
-                              'Associate Professor',
-                              'rlocalio@upenn.edu']],  
- ('Alisa Jane', 'Stephens'): [['ScD',
-                               'Assistant Professor',
-                               'alisaste@mail.med.upenn.edu']],  
- ('Andrea Beth', 'Troxel'): [['PhD',
-                              'Professor',
-                              'atroxel@mail.med.upenn.edu']]}  
+(('Scarlett L.', 'Bellamy'),
+  [[' Sc.D.', 'Associate Professor', 'bellamys@mail.med.upenn.edu']]),
+ (('Warren B.', 'Bilker'), [['Ph.D.', 'Professor', 'warren@upenn.edu']]),
+ (('Matthew W', 'Bryan'),
+  [[' PhD', 'Assistant Professor', 'bryanma@upenn.edu']])
 ```
 Place your code in this file: [advanced_python_dict.py](python/advanced_python_dict.py)
 
