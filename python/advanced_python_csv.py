@@ -13,3 +13,4 @@ email=email[1:]
 
 for i in range(len(email)):
 	c.writerow([email[i]])
+
