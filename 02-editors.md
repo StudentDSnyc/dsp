@@ -31,7 +31,7 @@ Both Emacs and vim have built-in interactive tutorials that you can try.
 
 What terminal editor will you use? How did you make your decision?
 
-I will use vim. Vim is a widely used editor that is powerful and efficient. I like the modal format that allows you to swtich between inserting text and navigating text. It also has a good amount of documentation and resources for help with the interface. 
+*I will use vim. Vim is a widely used editor that is powerful and efficient. I like the modal format that allows you to swtich between inserting text and navigating text. It also has a good amount of documentation and resources for help with the interface.* 
 
 ---
 
@@ -61,9 +61,9 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
-I would like to use the same editor for non-graphical and graphical applications, so I will use vim for both. 
-One interesting feature of vim is that it allows you to split the current window (:split) and edit text in multiple windows. Another interesting feature is "Visual mode", which allows you to highlight a certain amount of text and perform a command on the selected portion. 
-Some useful keyboard shortcuts are :w (save), :q (quit), u (undo), ctrl+R (redo), and :help.
-Vim can be customized by creating an empty vimrc file (touch ~/.vimrc) and entering "set: " followed by the configuration you want to have. For example, "set: ignorecase" will treat lowercase and uppercase letters identically while searching.
+*I would like to use the same editor for non-graphical and graphical applications, so I will use vim for both. 
+One interesting feature of vim is that it allows you to split the current window (:split) and edit text in multiple windows. Another interesting feature is "Visual mode", which allows you to highlight a certain amount of text and perform a command on the selected portion.  <br>
+Some useful keyboard shortcuts are :w (save), :q (quit), u (undo), ctrl+R (redo), and :help.  <br>
+Vim can be customized by creating an empty vimrc file (touch ~/.vimrc) and entering "set: " followed by the configuration you want to have. For example, "set: ignorecase" will treat lowercase and uppercase letters identically while searching.*  
 
 ---
