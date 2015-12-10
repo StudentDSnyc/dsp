@@ -12,7 +12,7 @@ these in a couple of hours.
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-* pwd: print working directory  
+>>* pwd: print working directory  
 * hostname:	my computer's network name  
 * mkdir:	make directory  
 * cd:	change directory  
@@ -42,7 +42,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 What does `ls` do? What do `ls -a`, `ls -l`, and `ls -lh` do? What combinations of those flags are meaningful?
 
-* "ls" lists the contents of  a directory.  
+>>* "ls" lists the contents of  a directory.  
 * "ls -a" includes entries in the directory beginning with "."  
 * "ls -l" lists the contents of a directory with each file in long format (file mode, number of  
      links, owner name, group name, number of bytes in the file, abbreviated month, day-of-month file was  
@@ -57,7 +57,7 @@ What does `ls` do? What do `ls -a`, `ls -l`, and `ls -lh` do? What combinations 
 
 What does `xargs` do? Give an example of how to use it.
 
-"xargs" executes a command from standard input.   
+>>"xargs" executes a command from standard input.   
 Example:  
 ```
 $ echo Print two items on each line | xargs -n 2  
