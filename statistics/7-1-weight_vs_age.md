@@ -11,6 +11,9 @@ Similarly, Pearson's correlation indicates that there is very little correlation
 Spearman's correlation, which should not be influenced by outliers or skewed distributions, is also close to 0 and reaffirms the lack of correlation.  
 The plot of percentiles for birth weight and mother's age shows a non-linear relationship between the variables, especially beyond the age of 25.
 
+![Scatter plot](https://github.com/jmfradkin/dsp/blob/master/img/Ch7Ex1_Scatter.png?raw=true)
+![Percentile plot](https://github.com/jmfradkin/dsp/blob/master/img/Ch7Ex1_Percentile.png?raw=true)
+
 ```
 import nsfg
 import thinkplot

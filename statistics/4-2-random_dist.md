@@ -4,6 +4,9 @@ After creating the list of 1000 random values between 0 and 1, I used the code f
 
 The PMF shows that the distribution is uniform, since each random value corresponds to a probability of approximately 1/1000. Similarly, the CDF shows a uniform distribution, as evidenced by the straight line in the plot.
 
+![CDF](https://github.com/jmfradkin/dsp/blob/master/img/Ch4Ex2_CDF.png?raw=true)
+![PMF](https://github.com/jmfradkin/dsp/blob/master/img/Ch4Ex2_PMF.png?raw=true)
+
 ```
 import random
 import thinkplot

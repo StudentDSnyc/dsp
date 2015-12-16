@@ -18,7 +18,7 @@ Biased PMF:
 4: 0.10015329586101177  
 5: 0.052376085845682166
 
-![PMF plot](img/Ch3Ex1_PMF.png)
+![PMF plot](https://github.com/jmfradkin/dsp/blob/master/img/Ch3Ex1_PMF.png?raw=true)
 
 ```
 import nsfg
