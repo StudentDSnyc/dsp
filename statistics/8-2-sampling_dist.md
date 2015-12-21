@@ -18,7 +18,7 @@ Standard error for n=10000: 0.0202863559181
 
 ![Sampling distribution](https://github.com/jmfradkin/dsp/blob/master/img/Ch8Ex2_SampDist10.png?raw=true)
 
-
+![Standard error vs. sample size](https://github.com/jmfradkin/dsp/blob/master/img/Ch8Ex2_StdErr.png?raw=true)
 
 ```
 import numpy
