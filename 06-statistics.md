@@ -93,7 +93,9 @@ p(I|T) = [p(I) p(T|I)] / p(T)
 ###Q8. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Frequentist statistics examine the probability of the observed results, given the fixed hypothesis, *p(R|H)*. With the frequentist approach, data can be infinitely randomly sampled, and the probability of the results reflects their frequency in this sampling. Generally, frequentist statistics apply confidence intervals to these experiments to create a range of values that will include the true value of the parameter with some minimum probability (i.e. 95%).  
+
+>>Bayesian statistics study the probability of the hypothesis, given the fixed observed results, *p(H|R)*. This is a more traditional interpretation of probability, meaning that it describes the chances that a particular parameter fits the data.
 
 ---
 
